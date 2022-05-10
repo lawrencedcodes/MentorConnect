@@ -1,6 +1,11 @@
 package Data;
 
 public class Mentee extends Participant implements Connectable {
+
+    public Mentee(String name, int YOE, Boolean connected) {
+        super(name, YOE, connected);
+    }
+
     @Override
     public Boolean connect() {
         connected = true;

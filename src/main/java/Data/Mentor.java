@@ -1,6 +1,11 @@
 package Data;
 
 public class Mentor extends Participant implements Connectable{
+
+    public Mentor(String name, int YOE, Boolean connected) {
+        super(name, YOE, connected);
+    }
+
     @Override
     public Boolean connect() {
         return null;

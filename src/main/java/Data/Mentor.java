@@ -8,11 +8,16 @@ public class Mentor extends Participant implements Connectable{
 
     @Override
     public Boolean connect() {
+        //implement algo to search each list, find oldest unmatched
+        //that also has skill match
+        //'pair' in map
         return null;
     }
 
     @Override
     public Boolean disconnect() {
+
+        
         return null;
     }
 
